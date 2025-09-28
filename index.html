@@ -68,16 +68,36 @@
         <h3>Team Attendance</h3>
         <div class="teams-grid">
           <div class="team-card water">
-            <span class="team-name">🌊 Team Water Wise</span>
+            <span class="team-name">🌊 <b>Team Water Wise</b> 🌊</span>
             <span class="team-count" id="waterCount">0</span>
           </div>
           <div class="team-card zero">
-            <span class="team-name">🌿 Team Net Zero</span>
+            <span class="team-name">🌿 <b>Team Net Zero</b> 🌿</span>
             <span class="team-count" id="zeroCount">0</span>
           </div>
           <div class="team-card power">
-            <span class="team-name">⚡ Team Renewables</span>
+            <span class="team-name">⚡ <b>Team Renewables</b> ⚡</span>
             <span class="team-count" id="powerCount">0</span>
+          </div>
+        </div>
+        <!-- Attendee list in its own box -->
+        <div class="attendee-list-box">
+          <div class="attendee-list-container">
+            <h4>Attendees:</h4>
+            <div class="attendee-lists-grid">
+              <div class="attendee-list-team">
+                <h5>Team Water Wise</h5>
+                <ul id="attendeeListWater" class="attendee-list"></ul>
+              </div>
+              <div class="attendee-list-team">
+                <h5>Team Net Zero</h5>
+                <ul id="attendeeListZero" class="attendee-list"></ul>
+              </div>
+              <div class="attendee-list-team">
+                <h5>Team Renewables</h5>
+                <ul id="attendeeListPower" class="attendee-list"></ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

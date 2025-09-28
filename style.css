@@ -1,3 +1,62 @@
+/* Attendee list styles */
+.attendee-list-box {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  text-align: left;
+}
+.attendee-lists-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1.15fr);
+  gap: 24px;
+  margin-top: 18px;
+}
+.attendee-list-team {
+  border-radius: 12px;
+  padding: 18px 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.03);
+}
+.attendee-list-team:nth-child(1) {
+  background-color: #e8f7fc;
+}
+.attendee-list-team:nth-child(2) {
+  background-color: #ecfdf3;
+}
+.attendee-list-team:nth-child(3) {
+  background-color: #fff7ed;
+}
+.attendee-list-team h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.attendee-list-container {
+  margin-top: 0;
+  text-align: left;
+}
+.attendee-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.attendee-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 16px;
+  color: #475569;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+}
+.attendee-list li .attendee-team {
+  font-weight: 500;
+  color: #0071c5;
+}
 /* Modern reset */
 * {
   margin: 0;
