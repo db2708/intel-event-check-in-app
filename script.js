@@ -220,5 +220,5 @@ form.addEventListener("submit", function (event) {
   }
 
   // reset the name and team selection options
-   form.reset();
+   // form.reset();
 });
